@@ -4,7 +4,7 @@
 
 # SpotifyIndicator!
 
-SpotifyIndicator is a  indicator activity . Similar to spotify indicator activity
+SpotifyIndicator is a  indicator activity . Similar to spotify activity indicator 
 
 ![](gorsel.gif)
 ![](gorsel2.png)
