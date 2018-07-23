@@ -10,15 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let spotifyIndicator = SpotifyIndicator()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        spotifyIndicator.yourView = self.view
+        spotifyIndicator.yourViewAlpha = 0.8
+        spotifyIndicator.show()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+            self.spotifyIndicator.stop()
+        }
     }
+    
+    
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
 
 }

@@ -14,6 +14,7 @@
 		5B23C4B2210504D000F8C96A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B23C4B0210504D000F8C96A /* LaunchScreen.storyboard */; };
 		5B23C4BD210504D000F8C96A /* spotifyIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23C4BC210504D000F8C96A /* spotifyIndicatorTests.swift */; };
 		5B23C4C8210504D000F8C96A /* spotifyIndicatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23C4C7210504D000F8C96A /* spotifyIndicatorUITests.swift */; };
+		5B23C4D6210504E600F8C96A /* SpotifyIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23C4D5210504E600F8C96A /* SpotifyIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5B23C4C3210504D000F8C96A /* spotifyIndicatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spotifyIndicatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B23C4C7210504D000F8C96A /* spotifyIndicatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotifyIndicatorUITests.swift; sourceTree = "<group>"; };
 		5B23C4C9210504D000F8C96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B23C4D5210504E600F8C96A /* SpotifyIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5B23C4AE210504D000F8C96A /* Assets.xcassets */,
 				5B23C4B0210504D000F8C96A /* LaunchScreen.storyboard */,
 				5B23C4B3210504D000F8C96A /* Info.plist */,
+				5B23C4D5210504E600F8C96A /* SpotifyIndicator.swift */,
 			);
 			path = spotifyIndicator;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B23C4AA210504CE00F8C96A /* ViewController.swift in Sources */,
+				5B23C4D6210504E600F8C96A /* SpotifyIndicator.swift in Sources */,
 				5B23C4A8210504CE00F8C96A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
