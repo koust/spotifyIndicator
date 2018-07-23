@@ -14,7 +14,7 @@ public class SpotifyIndicator: UIViewController {
     public var yourViewBg               = UIColor.black
     public var yourViewAlpha:CGFloat    = 0.1
     public var myPointColor             = UIColor.white
-    public var pointSize:CGFloat        = 32
+    public var pointSize:CGFloat        = 15
     
    
     
@@ -96,7 +96,7 @@ public class SpotifyIndicator: UIViewController {
     }
     
     private func animation(){
-        let newSize:CGFloat  = 35
+        let newSize:CGFloat  = 20
 
         
         

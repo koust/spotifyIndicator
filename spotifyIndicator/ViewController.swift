@@ -16,12 +16,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         spotifyIndicator.yourView = self.view
-        spotifyIndicator.yourViewAlpha = 0.8
+        spotifyIndicator.yourViewAlpha = 1
         spotifyIndicator.show()
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-            self.spotifyIndicator.stop()
-        }
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+//            self.spotifyIndicator.stop()
+//        }
     }
     
     
