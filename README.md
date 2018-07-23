@@ -6,7 +6,7 @@
 
 SpotifyIndicator is a  indicator activity . Similar to spotify indicator activity
 
-![](gorsel.png)
+![](gorsel.gif)
 ![](gorsel2.png)
 
 
