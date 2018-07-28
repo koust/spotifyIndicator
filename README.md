@@ -24,9 +24,7 @@ SpotifyIndicator is a  indicator activity . Similar to spotify activity indicato
   2. Congratulations!  
 
 
-## Features
-
-   ### The Basics
+# Usage
    
    ```swift
     let spotifyIndicator = SpotifyIndicator()
